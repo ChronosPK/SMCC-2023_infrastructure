@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web-request-8008:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-request-8008/Dockerfile
+      context: /home/chronos/challenges/web/web-request-8008
+    image: web-request-8008
+    container_name: web-request-8008
+    hostname: web-request-8008
+    ports:
+      - "8008:8008"
+    environment:
+      AUTHOR: "ChronosPK"
