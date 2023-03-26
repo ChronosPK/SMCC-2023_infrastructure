@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web-php-8003:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-php-8003/Dockerfile
+      context: /home/chronos/challenges/web/web-php-8003
+    image: web-php-8003
+    container_name: web-php-8003
+    hostname: web-php-8003
+    ports:
+      - "8003:80"
+    environment:
+      AUTHOR: "ChronosPK"
+
