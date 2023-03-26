@@ -1,0 +1,3 @@
+/home/chronos/challenges/linux/linux-nc-5001/create.sh
+/home/chronos/challenges/prep/prep-date-9999/create.sh
+/home/chronos/challenges/misc/misc-faster-1337/create.sh
