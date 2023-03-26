@@ -1,0 +1,14 @@
+version: '3'
+services:
+  steg-secret-1001:
+    build:
+      dockerfile: /home/chronos/challenges/steg/steg-secret-1001/Dockerfile
+      context: /home/chronos/challenges/steg/steg-secret-1001
+    image: steg-secret-1001
+    container_name: steg-secret-1001
+    hostname: steg-secret-1001
+    ports:
+      - "1001:80"
+    environment:
+      AUTHOR: "ChronosPK"
+
