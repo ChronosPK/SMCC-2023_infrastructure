@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web-waffle-8004:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-waffle-8004/Dockerfile
+      context: /home/chronos/challenges/web/web-waffle-8004
+    image: web-waffle-8004
+    container_name: web-waffle-8004
+    hostname: web-waffle-8004
+    ports:
+      - "8004:8004"
+    environment:
+      AUTHOR: "ChronosPK"
+
