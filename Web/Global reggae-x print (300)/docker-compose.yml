@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web-grep-8001:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-grep-8001/Dockerfile
+      context: /home/chronos/challenges/web/web-grep-8001
+    image: web-grep-8001
+    container_name: web-grep-8001
+    hostname: web-grep-8001
+    ports:
+      - "8001:80"
+    environment:
+      AUTHOR: "Radu"
