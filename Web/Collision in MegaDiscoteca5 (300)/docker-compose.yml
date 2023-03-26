@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web-collide-8006:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-collide-8006/Dockerfile
+      context: /home/chronos/challenges/web/web-collide-8006
+    image: web-collide-8006
+    container_name: web-collide-8006
+    hostname: web-collide-8006
+    ports:
+      - "8006:80"
+    environment:
+      AUTHOR: "ChronosPK"
+
