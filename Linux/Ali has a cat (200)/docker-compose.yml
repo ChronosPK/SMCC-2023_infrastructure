@@ -1,0 +1,14 @@
+version: '3'
+services:
+  linux-ali-5000:
+    build:
+      dockerfile: /home/chronos/challenges/linux/linux-ali-5000/Dockerfile
+      context: /home/chronos/challenges/linux/linux-ali-5000
+    image: linux-ali-5000
+    container_name: linux-ali-5000
+    hostname: linux-ali-5000
+    ports:
+      - "5000:22"
+    environment:
+      AUTHOR: "ChronosPK"
+
