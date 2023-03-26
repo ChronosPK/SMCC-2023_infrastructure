@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web-login-8002:
+    build:
+      dockerfile: /home/chronos/challenges/web/web-login-8002/Dockerfile
+      context: /home/chronos/challenges/web/web-login-8002
+    image: web-login-8002
+    container_name: web-login-8002
+    hostname: web-login-8002
+    ports:
+      - "8002:80"
+    environment:
+      AUTHOR: "ChronosPK"
