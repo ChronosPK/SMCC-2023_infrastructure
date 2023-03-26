@@ -1,0 +1,1 @@
+Don't forget to replace the *full* paths of these files depending on their actual position in the filesystem.
