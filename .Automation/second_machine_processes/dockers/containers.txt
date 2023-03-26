@@ -1,0 +1,11 @@
+/home/chronos/challenges/steg/steg-secret-1001/docker-compose.yml
+/home/chronos/challenges/web/web-request-8007/docker-compose.yml
+/home/chronos/challenges/web/web-login-8002/docker-compose.yml
+/home/chronos/challenges/web/web-php-8003/docker-compose.yml
+/home/chronos/challenges/web/web-lucky-6666/docker-compose.yml
+/home/chronos/challenges/web/web-request-8008/docker-compose.yml
+/home/chronos/challenges/web/web-waffle-8004/docker-compose.yml
+/home/chronos/challenges/web/web-collide-8006/docker-compose.yml
+/home/chronos/challenges/web/web-template-8005/docker-compose.yml
+/home/chronos/challenges/web/web-grep-8001/docker-compose.yml
+/home/chronos/challenges/linux/linux-ali-5000/docker-compose.yml
